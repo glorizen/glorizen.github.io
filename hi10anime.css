@@ -1,3 +1,98 @@
+.p-none
+{
+  padding: 0px;
+}
+
+.p-xs
+{
+  padding: 5px;
+}
+
+.p-md
+{
+  padding: 10px;
+}
+
+.p-lg
+{
+  padding: 15px;
+}
+
+.pt-none
+{
+  padding-top: 0px;
+}
+
+.pr-none
+{
+  padding-right: 0px;
+}
+
+.pr-lg
+{
+  padding-right: 15px;
+}
+
+.pr-xxlg
+{
+  padding-right: 30px;
+}
+
+.pl-md
+{
+  padding-left: 10px;
+}
+
+.pl-lg
+{
+  padding-left: 15px;
+}
+
+.pb-none
+{
+  padding-bottom: 0px;
+}
+
+.ml-md
+{
+  margin-left: 10px;
+}
+
+.ml-lg
+{
+  margin-left: 15px;
+}
+
+.mt-xs
+{
+  margin-top: 5px;
+}
+
+.mt-md
+{
+  margin-top: 10px;
+}
+
+.mt-lg
+{
+  margin-top: 15px;
+}
+
+.mb-xs
+{
+  margin-bottom: 5px!important;
+}
+
+.mb-md
+{
+  margin-bottom: 10px;
+}
+
+.mb-lg
+{
+  margin-bottom: 15px;
+}
+
 .hover-zoom
 {
   -webkit-transition: all 500ms ease;
@@ -31,6 +126,7 @@
 
 .hover-border:hover
 {
+  border: 0px solid rgba(0, 0, 0, 0);
   border-top: 3px solid rgba(25, 25, 25, 0.5);
   
   -webkit-transition: all 500ms ease;
