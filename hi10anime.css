@@ -1,0 +1,24 @@
+.hover-zoom
+{
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.hover-zoom:hover
+{
+  transform: scale(1.1, 1.1);
+ 
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.small-caps
+{
+  font-variant: small-caps;
+}
