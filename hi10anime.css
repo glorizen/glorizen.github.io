@@ -30,6 +30,7 @@
 .hover-bg:hover
 {
   background-color: #333;
+  color: white;
  
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
