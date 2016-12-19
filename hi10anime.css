@@ -18,8 +18,10 @@
   transition: all 500ms ease;
 }
 
-.hover-bg
+.hover-border
 {
+  border: 3px solid rgba(0, 0, 0, 0);
+  
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -o-transition: all 500ms ease;
@@ -27,9 +29,9 @@
   transition: all 500ms ease;
 }
 
-.hover-bg:hover
+.hover-border:hover
 {
-  background-color: rgba(100, 100, 120, 0.2);
+  border-top: 3px solid rgba(25, 25, 25, 0.5);
   
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
@@ -88,4 +90,9 @@
 .light-border-bottom
 {
   border-bottom: 1px solid #DDD;
+}
+
+.entry-light-bg
+{
+  background-color: rgba(100, 100, 120, 0.2);
 }
