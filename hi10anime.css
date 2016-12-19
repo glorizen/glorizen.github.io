@@ -241,3 +241,39 @@
   filter: drop-shadow(0px 0px 5px #284);
 }
 
+.drop-shadow.yellow
+{
+  -webkit-filter: drop-shadow(0px 0px 10px #FCE99A);
+  -moz-filter: drop-shadow(0px 0px 10px #FCE99A);
+  -o-filter: drop-shadow(0px 0px 10px #FCE99A);
+  -ms-filter: drop-shadow(0px 0px 10px #FCE99A);
+  filter: drop-shadow(0px 0px 10px #FCE99A);
+}
+
+.drop-shadow.red
+{
+  -webkit-filter: drop-shadow(0px 0px 5px #FC3254);
+  -moz-filter: drop-shadow(0px 0px 5px #FC3254);
+  -o-filter: drop-shadow(0px 0px 5px #FC3254);
+  -ms-filter: drop-shadow(0px 0px 5px #FC3254);
+  filter: drop-shadow(0px 0px 5px #FC3254);
+}
+
+.drop-shadow.blue
+{
+  -webkit-filter: drop-shadow(0px 0px 5px #248);
+  -moz-filter: drop-shadow(0px 0px 5px #248);
+  -o-filter: drop-shadow(0px 0px 5px #248);
+  -ms-filter: drop-shadow(0px 0px 5px #248);
+  filter: drop-shadow(0px 0px 5px #248);
+}
+
+.drop-shadow.blue.sh-lg
+{
+  -webkit-filter: drop-shadow(0px 0px 10px #248);
+  -moz-filter: drop-shadow(0px 0px 10px #248);
+  -o-filter: drop-shadow(0px 0px 10px #248);
+  -ms-filter: drop-shadow(0px 0px 10px #248);
+  filter: drop-shadow(0px 0px 10px #248);
+}
+
