@@ -1,3 +1,28 @@
+.bg-black
+{
+  background-color: black;
+}
+
+.bg-light-grey
+{
+  background-color: #777777;
+}
+
+.bg-ready
+{
+  background-color: #00AA55;
+}
+
+.cl-white
+{
+  color: white;
+}
+
+.cl-black
+{
+  color: black;
+}
+
 .p-none
 {
   padding: 0px;
