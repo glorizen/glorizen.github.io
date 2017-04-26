@@ -182,6 +182,7 @@
 
 .tr-xs:hover
 {
+  transform: translate(10px, 0px);
   -webkit-transition: all 200ms ease;
   -moz-transition: all 200ms ease;
   -o-transition: all 200ms ease;
@@ -200,6 +201,7 @@
 
 .tr-sm:hover
 {
+  transform: translate(10px, 0px);
   -webkit-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
   -o-transition: all 300ms ease;
