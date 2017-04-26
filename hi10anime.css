@@ -13,6 +13,26 @@
   background-color: #00AA55;
 }
 
+.bg-blue
+{
+  background-color: #0088BB;
+}
+
+.bg-purple
+{
+  background-color: #AA55EE;
+}
+
+.bg-magenta
+{
+  background-color: #BB00AA;
+}
+
+.bg-crimson
+{
+  background-color: #FF0055;
+}
+
 .cl-white
 {
   color: white;
