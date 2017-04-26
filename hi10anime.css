@@ -8,7 +8,7 @@
   background-color: #777777;
 }
 
-.bg-ready
+.bg-green
 {
   background-color: #00AA55;
 }
@@ -48,9 +48,19 @@
   padding-top: 0px;
 }
 
+.pt-xs
+{
+  padding-top: 5px;
+}
+
 .pr-none
 {
   padding-right: 0px;
+}
+
+.pr-md
+{
+  padding-right: 10px;
 }
 
 .pr-lg
@@ -76,6 +86,11 @@
 .pb-none
 {
   padding-bottom: 0px;
+}
+
+.pb-xs
+{
+  padding-bottom: 5px;
 }
 
 .ml-md
