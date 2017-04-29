@@ -3,6 +3,11 @@
   background-color: black;
 }
 
+.bg-lighter-grey
+{
+  background-color: #AAAAAA;
+}
+
 .bg-light-grey
 {
   background-color: #777777;
@@ -11,6 +16,11 @@
 .bg-green
 {
   background-color: #00AA55;
+}
+
+.bg-dark-green
+{
+  background-color: #008833;
 }
 
 .bg-blue
