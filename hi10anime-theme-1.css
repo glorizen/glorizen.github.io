@@ -1,0 +1,104 @@
+tr td {
+text-align: center;
+padding: 0px !important;
+}
+
+button {
+border-radius: 1px;
+letter-spacing: 2px;
+font-weight: 400;
+}
+
+td > div {
+padding: 0px 15px;
+}
+
+.m-none {
+margin: 0px;
+}
+
+.pattern-bg {
+text-align: center;
+margin-bottom: 3px;
+background-color: inherit;
+background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+background-size: 60px 60px;
+background-position: 0 0, 30px 30px;
+}
+
+.pattern-bg img {
+padding: 0px 3px;
+background-color: #EEE;
+}
+
+.plot-heading {
+text-transform: lowercase;
+font-variant: small-caps;
+font-size: 22px;
+letter-spacing: 2px;
+background-color: black; 
+color: white;
+display: block;
+text-align: center;
+padding-bottom: 3px;
+}
+
+.plot-summary {
+text-align: justify;
+letter-spacing: 0.25px;
+border: 1px solid rgba(0, 0, 0, 0.1);
+padding: 8px 10px;
+font-size: 14px;
+}
+
+.version-heading {
+display: block;
+padding: 3px;
+background-color: black;
+color: white;
+text-transform: lowercase;
+font-variant: all-small-caps;
+font-size: 18px;
+padding-bottom: 5px;
+letter-spacing: 2px;
+word-spacing: 5px;
+}
+
+.info {
+display: inline-block;
+margin: 0px;
+padding-bottom: 13px;
+margin-right: 5px;
+}
+
+.info .desc {
+background-color: black;
+color: white;
+padding: 2px 10px 5px 10px;
+text-transform: lowercase;
+font-variant: all-small-caps;
+font-size: 17px;
+letter-spacing: 0.5px;
+}
+
+.info .value {
+background-color: grey;
+color: white;
+padding: 2px 10px 5px 10px;
+font-size: 17px;
+text-transform: lowercase;
+font-variant: all-small-caps;
+letter-spacing: 0.5px;
+}
+
+.episodes .desc {
+letter-spacing: 0.75px;
+margin-right: 15px;
+}
+
+.episodes .ddl {
+font-size: 18px;
+text-transform: lowercase;
+font-variant: all-small-caps;
+letter-spacing: 0.75px;
+}
