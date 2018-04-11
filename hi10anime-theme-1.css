@@ -55,7 +55,7 @@ p.image {
 }
 
 .version .details {
-  padding 5px 15px 15px 15px !important;
+  padding: 5px 15px 15px 15px !important;
 }
 
 .version .heading {
