@@ -58,7 +58,7 @@ p.image {
   padding-bottom: 20px !important
 }
 
-.version > .heading {
+.version .heading {
   display: block;
   padding: 3px;
   background-color: black;
@@ -100,7 +100,6 @@ p.image {
 
 .episodes {
   text-align: center;
-  display: none;
   padding-top: 20px;
 }
 
