@@ -101,7 +101,6 @@ p.image {
 .episodes {
   text-align: center;
   padding-top: 20px;
-  display: none;
   transition: all 300ms ease;
 }
 
