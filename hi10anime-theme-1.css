@@ -4,10 +4,6 @@ button {
   font-weight: 400;
 }
 
-td > div {
-  padding: 0px 15px;
-}
-
 .m-none {
   margin: 0px;
 }
@@ -58,6 +54,10 @@ p.image {
   padding-bottom: 20px !important
 }
 
+.version .details {
+  padding 5px 15px 15px 15px !important;
+}
+
 .version .heading {
   display: block;
   padding: 3px;
@@ -101,6 +101,7 @@ p.image {
 .episodes {
   text-align: center;
   padding-top: 20px;
+  display: none;
   transition: all 300ms ease;
 }
 
