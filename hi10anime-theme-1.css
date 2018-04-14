@@ -80,6 +80,7 @@ p.image {
   padding-bottom: 5px;
   letter-spacing: 2px;
   word-spacing: 5px;
+  margin: 0px;
 }
 
 .version .settings {
