@@ -66,6 +66,7 @@ p.image {
 
 .version .details {
   padding: 5px 15px 15px 15px !important;
+  border: 1px solid lightgray;
 }
 
 .version .heading {
@@ -79,6 +80,10 @@ p.image {
   padding-bottom: 5px;
   letter-spacing: 2px;
   word-spacing: 5px;
+}
+
+.version .settings {
+  padding: 15px 0px 15px 0px;
 }
 
 .version .details .info {
@@ -110,6 +115,7 @@ p.image {
 
 .episodes {
   text-align: center;
+  font-size: 14px;
   padding-top: 20px;
   transition: all 300ms ease;
 }
@@ -120,7 +126,7 @@ p.image {
 }
 
 .episodes .ddl {
-  font-size: 18px;
+  font-size: 17px;
   text-transform: lowercase;
   font-variant: all-small-caps;
   letter-spacing: 0.75px;
