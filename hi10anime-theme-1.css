@@ -73,7 +73,7 @@ p.image {
 .version {
   text-align: center;
   padding: 0px !important;
-  padding-bottom: 20px !important
+/*   padding-bottom: 20px !important */
 }
 
 .version .details {
