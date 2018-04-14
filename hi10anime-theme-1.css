@@ -8,6 +8,10 @@ button {
   margin: 0px;
 }
 
+mb-xs {
+  margin-bottom: 3px;
+}
+
 p.image {
   margin: 0px;
   padding: 0px;
@@ -26,6 +30,10 @@ p.image {
 .pattern-bg img {
   padding: 0px 3px;
   background-color: #EEE;
+}
+
+.plot > :last-child {
+  margin: 0px;
 }
 
 .plot > .heading {
@@ -47,6 +55,7 @@ p.image {
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 8px 10px;
   font-size: 14px;
+  margin-bottom: 0px;
 }
 
 .version tr td {
