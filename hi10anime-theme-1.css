@@ -32,11 +32,10 @@ p.image {
 }
 
 p.image:hover {
-  box-shadow: 0px 4px 8px darkmagenta;
+  box-shadow: 0px 4px 8px;
   transition: all 400ms ease;
 }
   
-
 .pattern-bg {
   text-align: center;
 /*   margin-bottom: 3px !important; */
@@ -49,6 +48,15 @@ p.image:hover {
 .pattern-bg img {
 /*   padding: 0px 3px; */
 /*   background-color: #EEE; */
+}
+
+.plot {
+  transition: all 400ms ease;
+}
+
+.plot:hover {
+  box-shadow: 0px 4px 8px;
+  transition: all 400ms ease;
 }
 
 .plot > :last-child {
@@ -80,7 +88,14 @@ p.image:hover {
 .version {
   text-align: center;
   padding: 0px !important;
+  box-shadow: 0px 4px 8px;
+  transition: all 400ms ease;
 /*   padding-bottom: 20px !important */
+}
+
+.version:hover {
+  box-shadow: 0px 4px 8px;
+  transition: all 400ms ease;
 }
 
 .version .details {
@@ -150,4 +165,13 @@ p.image:hover {
   text-transform: lowercase;
   font-variant: all-small-caps;
   letter-spacing: 0.75px;
+}
+
+.donation {
+  transition: all 400ms ease;
+}
+
+.donation:hover {
+  box-shadow: 0px 3px 10px;
+  transition: all 400ms ease;
 }
