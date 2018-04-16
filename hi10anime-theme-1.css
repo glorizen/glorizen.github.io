@@ -168,6 +168,7 @@ p.image:hover {
 }
 
 .donation {
+  text-align: center;
   transition: all 400ms ease;
 }
 
