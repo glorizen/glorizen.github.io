@@ -50,10 +50,6 @@ p.image:hover {
 /*   background-color: #EEE; */
 }
 
-.plot {
-  transition: all 400ms ease;
-}
-
 .plot > :last-child {
   margin: 0px;
 }
