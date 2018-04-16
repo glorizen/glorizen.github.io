@@ -28,7 +28,14 @@ p.image {
   margin: 0px;
   padding: 0px;
   text-align: center;
+  transition: all 400ms ease;
 }
+
+p.image:hover {
+  box-shadow: 0px 4px 8px darkmagenta;
+  transition: all 400ms ease;
+}
+  
 
 .pattern-bg {
   text-align: center;
