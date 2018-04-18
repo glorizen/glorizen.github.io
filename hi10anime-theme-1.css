@@ -54,6 +54,10 @@ p.image:hover {
   margin: 0px;
 }
 
+.plot + p {
+  margin: 0px;
+}
+
 .plot > .heading {
   margin: 0px;
   text-transform: lowercase;
