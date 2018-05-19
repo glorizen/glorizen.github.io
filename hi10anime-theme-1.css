@@ -154,11 +154,12 @@ p.image:hover {
 
 .episodes .desc {
   letter-spacing: 0.75px;
-  border: 1px solid #CCC;
   padding: 1px 10px 3px;
   text-align: center;
+  border: 1px solid #BBB;
   border-top: 0px;
   border-right: 0px;
+  border-left: 0px;
 }
 
 .episodes .ddl {
@@ -166,10 +167,11 @@ p.image:hover {
   text-transform: lowercase;
   font-variant: all-small-caps;
   letter-spacing: 0.75px;
-  border: 1px solid #CCC;
-  border-left: 0px;
   padding: 0px 0px 2px 5px;
+  border: 1px solid #BBB;
+  border-left: 0px;
   border-top: 0px;
+  border-right: 0px;
 }
 
 .ddl a {
