@@ -162,7 +162,14 @@ p.image:hover {
   text-transform: lowercase;
   font-variant: all-small-caps;
   letter-spacing: 0.75px;
+  border: 1px solid #AAA;
+  border-left: 0px;
+  padding: 0px 10px 2px 0px;
 }
+
+.ddl a {
+  text-decoration: none;
+} 
 
 .donation {
   text-align: center;
