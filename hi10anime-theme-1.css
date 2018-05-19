@@ -158,6 +158,7 @@ p.image:hover {
   padding: 1px 10px 3px;
   text-align: center;
   border-top: 0px;
+  border-right: 0px;
 }
 
 .episodes .ddl {
