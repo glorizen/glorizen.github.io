@@ -134,6 +134,10 @@ p.image:hover {
   letter-spacing: 0.5px;
 }
 
+.settings.sm .desc {
+  font-size: 15px !important;
+}
+
 .version .details .info .value {
   background-color: grey;
   color: white;
@@ -142,6 +146,10 @@ p.image:hover {
   text-transform: lowercase;
   font-variant: all-small-caps;
   letter-spacing: 0.5px;
+}
+
+.settings.sm .value {
+  font-size: 15px !important;
 }
 
 .episodes {
