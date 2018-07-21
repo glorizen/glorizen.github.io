@@ -186,17 +186,17 @@ p.image:hover {
   display: inline-block;
 }
 
-.ddl.inline:last-child a {
-  border-right: 1px solid #CCC;
-  padding-right: 10px;
-  margin-right: 5px;
-}
-
 .ddl a {
   text-decoration: none;
   margin-right: 10px;
   border-left: 1px solid #CCC;
   padding-left: 10px;
+}
+
+.ddl.inline :last-child a {
+  border-right: 1px solid #CCC;
+  padding-right: 10px;
+  margin-right: 5px;
 }
 
 .donation {
