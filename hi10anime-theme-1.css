@@ -193,10 +193,11 @@ p.image:hover {
   padding-left: 10px;
 }
 
-.ddl.inline :last-child a {
+.ddl.inline a:last-child {
   border-right: 1px solid #CCC;
   padding-right: 10px;
   margin-right: 5px;
+  margin-bottom: 5px;
 }
 
 .donation {
