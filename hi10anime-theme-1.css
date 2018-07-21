@@ -186,7 +186,7 @@ p.image:hover {
   display: inline-block;
 }
 
-ddl.inline:last-child a {
+.ddl.inline:last-child a {
   border-right: 1px solid #CCC;
   padding-right: 10px;
   margin-right: 5px;
