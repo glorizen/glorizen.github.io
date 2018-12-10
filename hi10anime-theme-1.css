@@ -28,6 +28,7 @@ p.image {
   margin: 0px;
   padding: 0px;
   text-align: center;
+  width: 100%
   transition: all 400ms ease;
 }
 
