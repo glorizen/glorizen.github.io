@@ -216,3 +216,7 @@ p.image img {
   box-shadow: 0px 3px 10px;
   transition: all 400ms ease;
 }
+
+.donation img {
+  width: 100%;
+}
