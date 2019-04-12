@@ -38,6 +38,9 @@ p.image:hover {
 
 p.image img {
   width: 100%;
+  max-height: inherit;
+  object-fit: cover;
+  object-position: inherit;
 }
   
 .pattern-bg {
