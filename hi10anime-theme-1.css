@@ -167,6 +167,24 @@ p.image img {
   transition: all 300ms ease;
 }
 
+.episodes .divider {
+  margin-top: 5px;
+  font-variant: all-small-caps;
+  font-size: 15px;
+  letter-spacing: 3px;
+  margin-bottom: 35px;
+  border-bottom: 1px solid #DDD;
+  line-height: 0.2;   
+}
+
+.episodes .divider > span {
+  border: 1px solid #CCC;
+  padding: 0px 15px 5px 20px;
+  border-radius: 12px;
+  background-color: white;
+  font-weight: 400;
+}
+
 .episodes .desc {
   letter-spacing: 0.75px;
   padding: 1px 10px 3px;
