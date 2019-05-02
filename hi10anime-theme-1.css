@@ -177,7 +177,7 @@ p.image img {
   line-height: 0.2;   
 }
 
-.episodes .divider:first { margin-top: 30px; }
+.episodes .divider:first-child { margin-top: 30px; }
 
 .episodes .divider > span {
   border: 1px solid #CCC;
