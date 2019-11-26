@@ -21,9 +21,9 @@
 .entry-content p code, .entry-content li code {
 	font-size: 13px;
 	background-color: #EEF;
-	padding: 0px 4px 1px 5px;
+	padding: 2px 4px 2px 5px;
 	border-radius: 3px;
-	border: 1px solid #CCC;
+	border: 1px solid #FFF;
 }
 
 .entry-content blockquote {
