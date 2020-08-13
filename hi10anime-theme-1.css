@@ -4,6 +4,10 @@ button {
   font-weight: 400;
 }
 
+.button-wrapper {
+  margin-top: 1.25rem;
+}
+
 .m-none {
   margin: 0px;
 }
