@@ -4,28 +4,28 @@ button {
   font-weight: 400;
 }
 
-.button-wrapper {
-  margin-top: 1.25rem;
-}
-
 .m-none {
   margin: 0px;
 }
 
-mb-xs {
+.mb-xs {
   margin-bottom: 3px;
 }
 
-mr-xs {
+.mr-xs {
   margin-right: 3px;
 }
 
-ml-xs {
+.ml-xs {
   margin-left: 3px;
 }
 
-mt-xs {
+.mt-xs {
   margin-top: 3px;
+}
+
+.mt-sm {
+  margin-top: 1.25rem;
 }
 
 p.image {
