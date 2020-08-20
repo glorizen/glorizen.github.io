@@ -140,3 +140,22 @@
     -o-transition: all 0.25s ease-in-out 0s;
     transition: all 0.25s ease-in-out 0s;
 }
+
+/* rand CSS styling. */
+.randspoilerscript {
+    display: none;
+    visibility: hidden;
+}
+.randcenterspoiler {
+    text-align: center !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.randbutton {
+    position: center;
+    padding: 0.25em;
+    font-size: 1em;
+    font-family: 'Droid Sans', sans-serif; font-weight: 400;
+    background-color: #F5F5F5 !important;
+    color: #339966;
+}
