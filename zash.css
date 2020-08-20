@@ -1,0 +1,142 @@
+
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+/* css */
+.zashStyle {
+    display: none;
+}
+.coverImage {
+    border-radius: 0.25em;
+    border: 0.25em solid lightGray;
+    padding: 0.25em !important;
+    display: block;
+    margin: auto;
+}
+.coverImage:hover {
+    border: 0.25em solid dodgerBlue;
+}
+.kshowSynopsisTable,
+.showInfoTable,
+.collectionTable {
+    background-color: whiteSmoke;
+    border: 0.25em solid lightGray !important;
+    border-radius: 0.25em;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: default;
+}
+.kshowSynopsisTable th,
+.showInfoTable th,
+.movieTable th,
+.batchLinksTable th,
+.showLinksTable th {
+    font-family: 'Droid Sans', sans-serif; font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+}
+.kshowSynopsisTable td {
+    font-family: 'Droid Sans', sans-serif; font-weight: 400;
+    padding: 0.5em !important;
+    text-align: justify;
+}
+.showInfoTable, .collectionTable {
+    background-color: whiteSmoke;
+    border: 0.25em solid lightGray !important;
+    border-radius: 0.25em;
+    margin: auto;
+    cursor: default;
+}
+.showInfoTable td, .collectionTable td {
+    text-align: center;
+}
+.batchLinksTable,
+.showLinksTable,
+.movieTable {
+    background-color: whiteSmoke;
+    border: 0.25em solid lightGray !important;
+    border-radius: 0.25em;
+    margin: auto;
+    cursor: default;
+}
+.collectionTable tr,
+.batchLinksTable tr,
+.showLinksTable tr,
+.movieTable tr {
+    background-color: whiteSmoke;
+    margin: auto;
+    cursor: default;
+    text-align: center;
+}
+.collectionTable tr:hover,
+.batchLinksTable tr:hover:not(:first-child),
+.showLinksTable tr:hover:not(:first-child),
+.movieTable tr:hover:not(:first-child) {
+    color: #F8F8F8;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.15);
+    background-color: rgba(120,120,120,0.5);
+}
+.batchLinksTable tr td,
+.showLinksTable tr td,
+.movieTable tr td {
+    padding: 0.5em !important;
+    font-family: 'Lato', sans-serif; font-weight: 400;
+    text-decoration: none;
+    text-shadow: none;
+    text-align: center;
+}
+.batchLinksTable tr td:not(:nth-child(1):nth-child(2)),
+.showLinksTable tr td:not(:nth-child(1):nth-child(2)),
+.movieTable tr td:not(:nth-child(1):nth-child(2)) {
+    font-family: 'Lato', sans-serif; font-weight: 700;
+}
+.batchLinksTable tr td a,
+.showLinksTable tr td a,
+.movieTable tr td a {
+    color: #000000;
+    text-decoration: none;
+    text-shadow: none;
+    font-family: 'Lato', sans-serif; font-weight: 900;
+}
+.batchLinksTable tr td a:hover,
+.showLinksTable tr td a:hover,
+.movieTable tr td a:hover {
+    color: #4169E1;
+    text-decoration: none;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.15);
+}
+.collectionTable tr td a {
+    text-decoration: none;
+    text-shadow: none;
+    font-family: 'Droid Sans', sans-serif; font-weight: 700;
+}
+.collectionTable tr td a:hover {
+    color: #6600FF;
+    text-decoration: none;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.15);
+}
+.donateImage {
+    display: block;
+    margin: auto;
+}
+/* transition hover effect */
+.coverImage, .kshowSynopsisTable tr,
+.collectionTable, .collectionTable tr,
+.batchLinksTable, .showLinksTable, .movieTable,
+.batchLinksTable tr, .showLinksTable tr, .movieTable tr,
+.batchLinksTable tr td:not(:nth-child(1):nth-child(2)),
+.showLinksTable tr td:not(:nth-child(1):nth-child(2)),
+.movieTable tr td:not(:nth-child(1):nth-child(2)) {
+    -moz-transition: all 0.25s ease-in-out 0s;
+    -webkit-transition: all 0.25s ease-in-out 0s;
+    -o-transition: all 0.25s ease-in-out 0s;
+    transition: all 0.25s ease-in-out 0s;
+}
+/* smooth transition hover effect */
+.coverImage, .collectionTable tr, .collectionTable tr td a,
+.batchLinksTable tr, .showLinksTable tr, .movieTable tr,
+.batchLinksTable tr td a, .showLinksTable tr td a, .movieTable tr td a{
+    -moz-transition: all 0.25s ease-in-out 0s;
+    -webkit-transition: all 0.25s ease-in-out 0s;
+    -o-transition: all 0.25s ease-in-out 0s;
+    transition: all 0.25s ease-in-out 0s;
+}
