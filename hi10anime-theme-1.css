@@ -258,6 +258,7 @@ p.image img {
 iframe #CGW {
   background-color: var(--primary-color) !important;
 }
+
 #masthead .search-toggle,
 #search-container .search-box,
 #primary-menu ul.children li:hover, #primary-menu ul.children li:hover > a,
@@ -266,17 +267,23 @@ input[type="button"]:hover, input[type="button"]:focus,
 input[type="submit"]:hover, input[type="submit"]:focus {
   background-color: var(--button-light) !important;
 }
+
 .entry-content .ddl a, #content-sidebar li a, .reply a, .logged-in-as a {
   color: var(--button) !important;
 }
+
 .entry-content .info .value {
   background-color: var(--desc-value-bg) !important;
   color: var(--desc-value-color) !important;
 }
+
 .entry-content button,
 #primary-menu ul.children li,
 #primary-menu li:hover, #primary-menu li:hover > a,
 input[type="button"], input[type="submit"] {
   background-color: var(--button) !important;
 }
+
+/*
 iframe #OW { background-color: white; }
+*/
