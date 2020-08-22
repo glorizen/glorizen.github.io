@@ -290,7 +290,3 @@ input[type="button"], input[type="submit"],
 }
 
 iframe #OW { background-color: white; }
-
-progress::-webkit-progress-value {
-  background: var(--button) !important;
-}
