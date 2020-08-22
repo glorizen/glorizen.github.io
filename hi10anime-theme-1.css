@@ -280,10 +280,13 @@ input[type="submit"]:hover, input[type="submit"]:focus {
 .entry-content button,
 #primary-menu ul.children li,
 #primary-menu li:hover, #primary-menu li:hover > a,
-input[type="button"], input[type="submit"] {
+input[type="button"], input[type="submit"],
+.total-cost {
   background-color: var(--button) !important;
 }
 
-/*
+.total-cost {
+  color: var(--desc-value-color) !important;
+}
+
 iframe #OW { background-color: white; }
-*/
