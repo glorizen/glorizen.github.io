@@ -118,6 +118,7 @@
     display: block;
     margin: auto;
 }
+
 /* transition hover effect */
 .coverImage, .kshowSynopsisTable tr,
 .collectionTable, .collectionTable tr,
@@ -131,6 +132,7 @@
     -o-transition: all 0.25s ease-in-out 0s;
     transition: all 0.25s ease-in-out 0s;
 }
+
 /* smooth transition hover effect */
 .coverImage, .collectionTable tr, .collectionTable tr td a,
 .batchLinksTable tr, .showLinksTable tr, .movieTable tr,
@@ -139,6 +141,16 @@
     -webkit-transition: all 0.25s ease-in-out 0s;
     -o-transition: all 0.25s ease-in-out 0s;
     transition: all 0.25s ease-in-out 0s;
+}
+
+/* simplistic seasonal sections */
+.ui-tabs-anchor { background-color: dimgray; }
+.tabfont {font-size: 14px; font-family: "Verdana", sans-serif; color: white;}
+li.ui-tabs-active a {
+    font-size: 14px;
+    font-family: "Verdana", sans-serif;
+    color: white !important;
+    background: green !important;
 }
 
 /* rand CSS styling. */
