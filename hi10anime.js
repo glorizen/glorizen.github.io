@@ -34,3 +34,24 @@ function createSpoiler(nameArray) {
     });
   });
 };
+
+function imageShift(code, newImageLink) {
+    const keys = [];
+    const origImageLink = jQuery('#cover').attr('src');
+    (new Image()).src = newImageLink; // preload the hidden image
+    jQuery(document).keydown(function(event) {
+            keys.push( event.keyCode );
+            if ( keys.toString().indexOf(code) >= 0 ) {
+                // do something when the konami code is executed
+                jQuery('#cover').stop().fadeOut(function() {
+                    const link = jQuery('#cover').attr('src') == origImageLink ? newImageLink : origImageLink;
+                    jQuery('#cover').attr('src', link).fadeIn();
+                });
+                // empty the array containing the key sequence entered by the user
+                keys.length = 0;
+                // cache limiter
+                if ( keys.toString().length >= code.length ) keys.shift();
+            }
+        }
+    );
+};
