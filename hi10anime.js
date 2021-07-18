@@ -5,38 +5,32 @@ function showSpoiler(obj) {
   else randinner.style.display = "none";
 }
 
-jQuery(function($) {
+function createSpoiler(nameArray) {
   // ==== ID Formatting ====
   // Base ID: 1080
   // Link ID: btn1080
   // Pane ID: pane1080
-  var SpoilerHelper = {
-    create: function (nameArray) {
-      $.each(nameArray, function (x, baseID) {
-        // initialization
-        if (x !== 0) {
-          $('#btn' + baseID).fadeTo(0, 0.4);
-          $('#pane' + baseID).hide();
-        }
-        // event handling
-        $('#btn' + baseID).click(function (event) {
-          event.preventDefault();
-          $.each(nameArray, function (y, currID) {
-            if ($('#pane' + currID).is(':visible')) {
-              $('#btn' + currID).fadeTo('fast', 0.4, function () {
-                $('#btn' + baseID).fadeTo('fast', 1.0);
-              });
-              $('#pane' + currID).fadeOut('medium', function () {
-                $('#pane' + baseID).slideDown('slow');
-              });
-              return false;
-            }
-          });
-        });
-      });
+
+  nameArray.forEach((elem, idx) => {
+    // initialization
+    if (idx !== 0) {
+      jQuery('#btn' + elem).fadeTo(0, 0.4);
+      jQuery('#pane' + elem).hide();
     }
-  };
-  SpoilerHelper.create(['S3', 'S1', 'S2', 'Movies']);
-  SpoilerHelper.create(['S1a', 'S1b']);
-  SpoilerHelper.create(['S2a', 'S2b']);
-});
+    // event handling
+    jQuery('#btn' + elem).click(function (event) {
+      event.preventDefault();
+      nameArray.forEach(currElem => {
+        if (jQuery('#pane' + currElem).is(':visible')) {
+          jQuery('#btn' + currElem).fadeTo('fast', 0.4, function () {
+            jQuery('#btn' + elem).fadeTo('fast', 1.0);
+          });
+          jQuery('#pane' + currElem).fadeOut('medium', function () {
+            jQuery('#pane' + elem).slideDown('slow');
+          });
+          return false;
+        }
+      });
+    });
+  });
+};
