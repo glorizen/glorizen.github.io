@@ -431,6 +431,9 @@ a.hovertext:hover:after, a.hovertext:focus:after {
     margin-left: auto;
     margin-right: auto;
 }
+.spoilerCell {
+  max-width: 50%;
+}
 .spoilerPane a, .spoilerPane img, .spoilerCell {
     display: inline-block;
 }
